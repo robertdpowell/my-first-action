@@ -9,4 +9,25 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: step 1
+      run: echo this is job 1!
+  
+  job2:
+    name: First job
+    runs-on: ubuntu-latest
+    steps:
+    - name: step 2
       run: echo this is job 2!
+
+  job3:
+    name: First job
+    runs-on: ubuntu-latest
+    steps:
+    - name: step 3
+      run: echo this is job 3!
+
+  job4:
+    name: First job
+    runs-on: ubuntu-latest
+    steps:
+    - name: step 4
+      run: echo this is job 4!
